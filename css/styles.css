@@ -395,10 +395,11 @@ body .card .photo div:before {
   opacity: 0.25;
 }
 
-/*body .card .photo div:first-of-type {
+body .card .photo div:first-of-type {
   background: #fba0cc;
 }
-body .card .photo div:nth-of-type(2) {
+
+/*body .card .photo div:nth-of-type(2) {
   background: #F45746;
   box-shadow: inset 0 0 0 5px #fff, 0 0 0 5px #F45746, 0 0 0 10px #fff;
 }
