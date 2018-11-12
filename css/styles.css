@@ -317,12 +317,13 @@ body .card input[type="radio"]:nth-of-type(3):checked+div~.photo div:nth-of-type
   transform: rotateX(0deg);
 }
 
-/*body .card input[type="radio"]:nth-of-type(2):checked + div ~ .shapes {
+body .card input[type="radio"]:nth-of-type(2):checked+div~.shapes {
   top: 35%;
   left: 65%;
   width: 90px;
 }
-body .card input[type="radio"]:nth-of-type(2):checked + div ~ .shapes:before {
+
+/*body .card input[type="radio"]:nth-of-type(2):checked + div ~ .shapes:before {
   left: 120px;
   top: 170px;
   -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
