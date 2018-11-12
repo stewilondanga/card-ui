@@ -264,12 +264,13 @@ body .card input[type="radio"]+div {
   top: 0;
 }
 
-/*body .card input[type="radio"]:checked + div h1 {
+body .card input[type="radio"]:checked+div h1 {
   -webkit-transform: scale(1) rotate(0deg);
-          transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
   opacity: 1;
 }
-body .card input[type="radio"]:nth-of-type(2):checked + div ~ .blob .glob {
+
+/*body .card input[type="radio"]:nth-of-type(2):checked + div ~ .blob .glob {
   width: 70%;
   height: 75%;
   background: #FE8D58;
