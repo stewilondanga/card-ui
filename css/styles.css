@@ -230,12 +230,13 @@ body .card input[type="checkbox"]:checked~a {
   font-size: 0;
 }
 
-/*body .card input[type="checkbox"]:checked ~ a:before {
+body .card input[type="checkbox"]:checked~a:before {
   opacity: 1;
   -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
-          transform: translateX(-50%) translateY(-50%) scale(1);
+  transform: translateX(-50%) translateY(-50%) scale(1);
 }
-body .card input[type="checkbox"]:checked ~ .blob {
+
+/*body .card input[type="checkbox"]:checked ~ .blob {
   z-index: 99;
   transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
