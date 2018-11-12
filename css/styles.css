@@ -452,7 +452,7 @@ body .card .blob {
   filter: url(#goo);
 }
 
-/*body .card .blob .glob {
+body .card .blob .glob {
   position: absolute;
   width: 60%;
   height: 75%;
@@ -461,7 +461,8 @@ body .card .blob {
   top: -25%;
   right: -25%;
 }
-body .card .blob:before, body .card .blob:after {
+
+/*body .card .blob:before, body .card .blob:after {
   content: '';
   position: absolute;
   width: 50%;
