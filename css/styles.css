@@ -224,12 +224,13 @@ body .card input[type="checkbox"]:checked~p {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-/*body .card input[type="checkbox"]:checked ~ a {
+body .card input[type="checkbox"]:checked~a {
   z-index: 100;
   color: #fff;
   font-size: 0;
 }
-body .card input[type="checkbox"]:checked ~ a:before {
+
+/*body .card input[type="checkbox"]:checked ~ a:before {
   opacity: 1;
   -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
           transform: translateX(-50%) translateY(-50%) scale(1);
