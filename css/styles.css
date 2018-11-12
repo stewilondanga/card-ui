@@ -190,17 +190,18 @@ body .card a {
   font-family: "Raleway";
 }
 
-/*body .card a:before {
+body .card a:before {
   content: 'BACK';
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
-          transform: translateX(-50%) translateY(-50%) scale(0);
+  transform: translateX(-50%) translateY(-50%) scale(0);
   font-size: 15px;
   opacity: 0;
 }
-body .card input[type="checkbox"] {
+
+/*body .card input[type="checkbox"] {
   z-index: 999;
   position: absolute;
   bottom: 50px;
