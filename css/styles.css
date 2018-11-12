@@ -404,10 +404,11 @@ body .card .photo div:nth-of-type(2) {
   box-shadow: inset 0 0 0 5px #fff, 0 0 0 5px #F45746, 0 0 0 10px #fff;
 }
 
-/*body .card .photo div:nth-of-type(2):before {
+body .card .photo div:nth-of-type(2):before {
   content: '👯';
 }
-body .card .photo div:nth-of-type(3) {
+
+/*body .card .photo div:nth-of-type(3) {
   background: #B9ACCA;
   box-shadow: inset 0 0 0 5px #fff, 0 0 0 5px #B9ACCA, 0 0 0 10px #fff;
 }
