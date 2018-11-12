@@ -80,7 +80,7 @@ body input[type="radio"]:checked+div .btn:after {
   color: #fff;
 }
 
-/*body input[type="radio"] + div .btn {
+body input[type="radio"]+div .btn {
   position: absolute;
   width: 33%;
   bottom: 0;
@@ -91,7 +91,8 @@ body input[type="radio"]:checked+div .btn:after {
   z-index: 9;
   cursor: pointer;
 }
-body input[type="radio"] + div .btn:after {
+
+/*body input[type="radio"] + div .btn:after {
   content: '1';
   position: absolute;
   color: #FE8D58;
