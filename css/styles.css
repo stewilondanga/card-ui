@@ -281,10 +281,11 @@ body .card input[type="radio"]:nth-of-type(2):checked+div~.blob:before {
   background: #FE8D58;
 }
 
-/*body .card input[type="radio"]:nth-of-type(2):checked + div ~ .blob:after {
+body .card input[type="radio"]:nth-of-type(2):checked+div~.blob:after {
   background: #FE8D58;
 }
-body .card input[type="radio"]:nth-of-type(3):checked + div ~ .blob .glob {
+
+/*body .card input[type="radio"]:nth-of-type(3):checked + div ~ .blob .glob {
   width: 70%;
   height: 55%;
   background: #F45746;
