@@ -168,7 +168,7 @@ body .card p {
   transition: none;
 }
 
-/*body .card a {
+body .card a {
   color: #6D44B5;
   font-size: 15px;
   bottom: 50px;
@@ -185,11 +185,12 @@ body .card p {
   left: -50px;
   opacity: 1;
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   height: 12.5px;
   font-family: "Raleway";
 }
-body .card a:before {
+
+/*body .card a:before {
   content: 'BACK';
   position: absolute;
   left: 50%;
