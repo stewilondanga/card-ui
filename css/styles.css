@@ -92,7 +92,7 @@ body input[type="radio"]+div .btn {
   cursor: pointer;
 }
 
-/*body input[type="radio"] + div .btn:after {
+body input[type="radio"]+div .btn:after {
   content: '1';
   position: absolute;
   color: #FE8D58;
@@ -101,11 +101,12 @@ body input[type="radio"]+div .btn {
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(calc(-50% - 2.5px));
-          transform: translateX(-50%) translateY(calc(-50% - 2.5px));
+  transform: translateX(-50%) translateY(calc(-50% - 2.5px));
   line-height: 0;
   color: #B9ACCA;
 }
-body input[type="radio"] + div .btn:before {
+
+/*body input[type="radio"] + div .btn:before {
   content: '';
   position: absolute;
   width: 150%;
