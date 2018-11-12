@@ -46,10 +46,11 @@ body input[type="radio"]:nth-of-type(2) {
   left: 33.33%;
 }
 
-/*body input[type="radio"]:nth-of-type(2) + div .btn {
+body input[type="radio"]:nth-of-type(2)+div .btn {
   left: 33.33%;
 }
-body input[type="radio"]:nth-of-type(2) + div .btn:after {
+
+/*body input[type="radio"]:nth-of-type(2) + div .btn:after {
   content: '2';
 }
 body input[type="radio"]:nth-of-type(3) {
