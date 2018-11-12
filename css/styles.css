@@ -72,10 +72,11 @@ body input[type="radio"]:checked+div .btn {
   padding: 5px 0;
 }
 
-/*body input[type="radio"]:checked + div .btn:before {
+body input[type="radio"]:checked+div .btn:before {
   left: -25%;
 }
-body input[type="radio"]:checked + div .btn:after {
+
+/*body input[type="radio"]:checked + div .btn:after {
   color: #fff;
 }
 body input[type="radio"] + div .btn {
