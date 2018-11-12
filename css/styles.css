@@ -13,8 +13,8 @@
   height: 1.5em;
 }
 
-/*@charset "UTF-8";
-body {
+@charset "UTF-8";
+/*body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   font-family: 'Raleway Dots';
   background: radial-gradient(ellipse at bottom left, #FE8D58, #FE8D58 20%, transparent 20%), linear-gradient(to bottom, #B9ACCA, #fff);
 }
-body input[type="radio"] {
+/*body input[type="radio"] {
   position: absolute;
   z-index: 999;
   left: 0;
