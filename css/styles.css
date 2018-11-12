@@ -201,7 +201,7 @@ body .card a:before {
   opacity: 0;
 }
 
-/*body .card input[type="checkbox"] {
+body .card input[type="checkbox"] {
   z-index: 999;
   position: absolute;
   bottom: 50px;
@@ -210,7 +210,8 @@ body .card a:before {
   height: 50px;
   opacity: 0;
 }
-body .card input[type="checkbox"]:hover ~ a {
+
+/*body .card input[type="checkbox"]:hover ~ a {
   background: #fba0cc;
   color: #fff;
   border-color: #fba0cc;
