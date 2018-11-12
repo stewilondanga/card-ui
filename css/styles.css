@@ -413,10 +413,11 @@ body .card .photo div:nth-of-type(3) {
   box-shadow: inset 0 0 0 5px #fff, 0 0 0 5px #B9ACCA, 0 0 0 10px #fff;
 }
 
-/*body .card .photo div:nth-of-type(3):before {
+body .card .photo div:nth-of-type(3):before {
   content: '💋';
 }
-body .card .shapes {
+
+/*body .card .shapes {
   position: absolute;
   left: 45%;
   top: 20%;
