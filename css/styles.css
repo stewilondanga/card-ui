@@ -76,10 +76,11 @@ body input[type="radio"]:checked+div .btn:before {
   left: -25%;
 }
 
-/*body input[type="radio"]:checked + div .btn:after {
+body input[type="radio"]:checked+div .btn:after {
   color: #fff;
 }
-body input[type="radio"] + div .btn {
+
+/*body input[type="radio"] + div .btn {
   position: absolute;
   width: 33%;
   bottom: 0;
