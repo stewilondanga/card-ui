@@ -355,16 +355,17 @@ body .card:before {
   z-index: 200;
 }
 
-/*body .card .photo {
+body .card .photo {
   position: absolute;
   width: 50%;
   height: 100%;
   z-index: 0;
   overflow: hidden;
   -webkit-perspective: 300px;
-          perspective: 300px;
+  perspective: 300px;
 }
-body .card .photo div {
+
+/*body .card .photo div {
   position: absolute;
   width: 75%;
   height: 50%;
