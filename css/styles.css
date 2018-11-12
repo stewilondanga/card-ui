@@ -34,10 +34,11 @@ body input[type="radio"] {
   height: 30px;
 }
 
-/*body input[type="radio"]:hover + div .btn {
+body input[type="radio"]:hover+div .btn {
   background: #B9ACCA;
 }
-body input[type="radio"]:hover + div .btn:after {
+
+/*body input[type="radio"]:hover + div .btn:after {
   color: #fff;
 }
 body input[type="radio"]:nth-of-type(2) {
