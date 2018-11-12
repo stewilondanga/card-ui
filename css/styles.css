@@ -417,7 +417,7 @@ body .card .photo div:nth-of-type(3):before {
   content: '💋';
 }
 
-/*body .card .shapes {
+body .card .shapes {
   position: absolute;
   left: 45%;
   top: 20%;
@@ -428,7 +428,8 @@ body .card .photo div:nth-of-type(3):before {
   box-shadow: 0 8px 0 0 #FE8D58, 0 16px 0 0 #FE8D58, 0 24px 0 0 #FE8D58, 0 32px 0 0 #FE8D58;
   mix-blend-mode: screen;
 }
-body .card .shapes:before {
+
+/*body .card .shapes:before {
   content: '';
   position: absolute;
   width: 40px;
