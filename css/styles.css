@@ -255,7 +255,7 @@ body .card input[type="checkbox"]:checked~.blob .glob {
   right: -5%;
 }
 
-/*body .card input[type="radio"] + div {
+body .card input[type="radio"]+div {
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -263,7 +263,8 @@ body .card input[type="checkbox"]:checked~.blob .glob {
   left: 0;
   top: 0;
 }
-body .card input[type="radio"]:checked + div h1 {
+
+/*body .card input[type="radio"]:checked + div h1 {
   -webkit-transform: scale(1) rotate(0deg);
           transform: scale(1) rotate(0deg);
   opacity: 1;
