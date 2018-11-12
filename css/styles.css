@@ -336,13 +336,14 @@ body .card input[type="radio"]:nth-of-type(3):checked+div~.shapes {
   width: 140px;
 }
 
-/*body .card input[type="radio"]:nth-of-type(3):checked + div ~ .shapes:before {
+body .card input[type="radio"]:nth-of-type(3):checked+div~.shapes:before {
   left: 140px;
   top: -40px;
   -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
-body .card:before {
+
+/*body .card:before {
   content: '';
   position: absolute;
   left: 0;
