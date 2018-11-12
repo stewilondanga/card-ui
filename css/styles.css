@@ -152,7 +152,7 @@ body .card h1, body .card a {
   opacity: 0;
 }
 
-/*body .card p {
+body .card p {
   position: absolute;
   z-index: 999;
   width: 75%;
@@ -167,7 +167,8 @@ body .card h1, body .card a {
   clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
   transition: none;
 }
-body .card a {
+
+/*body .card a {
   color: #6D44B5;
   font-size: 15px;
   bottom: 50px;
